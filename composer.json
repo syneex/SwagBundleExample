@@ -1,0 +1,18 @@
+{
+  "name": "swag/bundle-example",
+  "description": "Bundle Example",
+  "type": "shopware-platform-plugin",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "BundleExample\\": "src/"
+    }
+  },
+  "extra": {
+    "shopware-plugin-class": "BundleExample\\BundleExample",
+    "label": {
+      "de-DE": "Bundle Example ",
+      "en-GB": "Bundle Example"
+    }
+  }
+}
