@@ -1,8 +1,8 @@
 <?php declare(strict_types=1);
 
-namespace Swag\BundleExample\Core\Content\Bundle;
+namespace BundleExample\Core\Content\Bundle;
 
-use \Swag\BundleExample\Core\Content\Bundle\Aggregate\BundleTranslation;
+use BundleExample\Core\Content\Bundle\Aggregate\BundleTranslation;
 use Shopware\Core\Content\Product\ProductCollection;
 use Shopware\Core\Framework\DataAbstractionLayer\Entity;
 use Shopware\Core\Framework\DataAbstractionLayer\EntityIdTrait;

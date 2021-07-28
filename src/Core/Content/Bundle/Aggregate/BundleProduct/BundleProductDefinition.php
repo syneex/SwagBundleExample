@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Swag\BundleExample\Core\Content\Bundle\Aggregate\BundleProduct;
+namespace BundleExample\Core\Content\Bundle\Aggregate\BundleProduct;
 
 use Shopware\Core\Content\Product\ProductDefinition;
 use Shopware\Core\Framework\DataAbstractionLayer\Field\CreatedAtField;
@@ -11,7 +11,7 @@ use Shopware\Core\Framework\DataAbstractionLayer\Field\ManyToOneAssociationField
 use Shopware\Core\Framework\DataAbstractionLayer\Field\ReferenceVersionField;
 use Shopware\Core\Framework\DataAbstractionLayer\FieldCollection;
 use Shopware\Core\Framework\DataAbstractionLayer\MappingEntityDefinition;
-use Swag\BundleExample\Core\Content\Bundle\BundleDefinition;
+use BundleExample\Core\Content\Bundle\BundleDefinition;
 
 class BundleProductDefinition extends MappingEntityDefinition
 {

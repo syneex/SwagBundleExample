@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Swag\BundleExample\Core\Content\Bundle;
+namespace BundleExample\Core\Content\Bundle;
 
 use Shopware\Core\Content\Product\ProductDefinition;
 use Shopware\Core\Framework\DataAbstractionLayer\EntityDefinition;
@@ -13,8 +13,8 @@ use Shopware\Core\Framework\DataAbstractionLayer\Field\StringField;
 use Shopware\Core\Framework\DataAbstractionLayer\Field\TranslatedField;
 use Shopware\Core\Framework\DataAbstractionLayer\Field\TranslationsAssociationField;
 use Shopware\Core\Framework\DataAbstractionLayer\FieldCollection;
-use Swag\BundleExample\Core\Content\Bundle\Aggregate\BundleProduct\BundleProductDefinition;
-use Swag\BundleExample\Core\Content\Bundle\Aggregate\BundleTranslation\BundleTranslationDefinition;
+use BundleExample\Core\Content\Bundle\Aggregate\BundleProduct\BundleProductDefinition;
+use BundleExample\Core\Content\Bundle\Aggregate\BundleTranslation\BundleTranslationDefinition;
 
 class BundleDefinition extends EntityDefinition
 {

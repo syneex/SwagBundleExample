@@ -1,9 +1,9 @@
 <?php declare(strict_types=1);
 
-namespace Swag\BundleExample\Core\Content\Bundle\Aggregate\BundleTranslation;
+namespace BundleExample\Core\Content\Bundle\Aggregate\BundleTranslation;
 
 use Shopware\Core\Framework\DataAbstractionLayer\TranslationEntity;
-use Swag\BundleExample\Core\Content\Bundle\BundleEntity;
+use BundleExample\Core\Content\Bundle\BundleEntity;
 
 class BundleTranslationEntity extends TranslationEntity
 {
