@@ -1,3 +1,5 @@
+import './page/swag-bundle-list';
+
 import deDE from './snippet/de-DE.json';
 import enGB from './snippet/en-GB.json';
 
@@ -17,7 +19,10 @@ Module.register('swag-bundle', {
     },
 
     routes: {
-        a: {component: 'b'}
+       index: {
+           component: 'swag-bundle-list',
+           path: 'index'
+       }
     },
 
     navigation: [{
