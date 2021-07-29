@@ -20,5 +20,17 @@
         <service id="BundleExample\Core\Content\Product\ProductExtension">
             <tag name="shopware.entity.extension" />
         </service>
+
+        <service id="BundleExample\Resources\snippet\storefront\en_GB\SnippetFile_en_GB">
+            <tag name="shopware.snippet.file" priority="100" />
+        </service>
+
+        <service id="BundleExample\Resources\snippet\storefront\de_DE\SnippetFile_de_DE">
+            <tag name="shopware.snippet.file" priority="100" />
+        </service>
+
+        <service id="BundleExample\Storefront\Page\Product\Subscriber\ProductPageCriteriaSubscriber">
+            <tag name="kernel.event_subscriber" />
+        </service>
     </services>
 </container>
