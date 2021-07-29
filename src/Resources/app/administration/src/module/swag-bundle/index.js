@@ -1,4 +1,6 @@
 import './page/swag-bundle-list';
+import './page/swag-bundle-create';
+import './page/swag-bundle-detail';
 
 import deDE from './snippet/de-DE.json';
 import enGB from './snippet/en-GB.json';
@@ -22,6 +24,20 @@ Module.register('swag-bundle', {
        index: {
            component: 'swag-bundle-list',
            path: 'index'
+       },
+       detail: {
+           component: 'swag-bundle-detail',
+           path: 'detail/:id',
+           meta: {
+               parentPath: 'swag.bundle.index'
+           }
+       },
+       create: {
+           component: 'swag-bundle-create',
+           path: 'create',
+           meta: {
+               parentPath: 'swag.bundle.index'
+           }
        }
     },
 

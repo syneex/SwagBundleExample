@@ -40,7 +40,7 @@ class BundleDefinition extends EntityDefinition
             new TranslatedField('name'),
 
             (new StringField('discount_type', 'discountType'))->addFlags(new Required()),
-            (new StringField('discount', 'discount'))->addFlags(new Required()),
+            (new FloatField('discount', 'discount'))->addFlags(new Required()),
 
             new TranslationsAssociationField(BundleTranslationDefinition::class, 'swag_bundle_id'),
             new ManyToManyAssociationField('products', ProductDefinition::class, BundleProductDefinition::class, 'bundle_id', 'product_id'),

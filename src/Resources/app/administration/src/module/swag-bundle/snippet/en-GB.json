@@ -9,6 +9,17 @@
       "columnName": "Name",
       "columnDiscountType": "Discount Type",
       "columnDiscount": "Discount"
+    },
+    "detail": {
+      "nameLabel": "Name",
+      "discountLabel": "Discount",
+      "discountTypeLabel": "Discount Type",
+      "assignProductsLabel": "Assign Products",
+      "cancelButtonText": "Cancel",
+      "saveButtonText": "Save",
+      "errorTitle": "Error saving the bundle",
+      "absoluteText": "Absolute",
+      "percentageText": "Percentage"
     }
   }
 }
